@@ -18,6 +18,30 @@ Generate 16:9 YouTube thumbnails using Nano Banana (Gemini 3 Pro Image) API, inc
 5. **KISS PRINCIPLE** - Simplicity wins. When in doubt, remove elements.
 6. **3 VERSIONS** - Always generate 3 variations for A/B testing
 
+## Psychology Flow (How Viewers Decide to Click)
+
+Before designing, understand the viewer's decision process:
+
+1. **Visual Stun Gun (1-2 seconds)** - Thumbnail catches eye in the scroll through color/face/motion
+2. **Title Reading** - Viewer reads title to understand the value promise
+3. **Click Decision** - Viewer asks: "Does this thumbnail validate the title's promise?"
+
+Your thumbnail must WIN the visual stun battle, then SUPPORT (not repeat) the title's promise.
+
+## 7 Visual Stun Gun Techniques
+
+Choose 1-2 techniques per thumbnail (max 3 - avoid clutter):
+
+| Technique | How to Use | Best For |
+|-----------|------------|----------|
+| **Color Contrast** | Vivid colors against gradient background | Every thumbnail (foundation) |
+| **Large Face + Emotion** | Big face with expression matching video promise | Reaction/reveal content |
+| **Big Numbers/Dollar Signs** | Large "$10,000" or "10X" creates immediate scale | Results/income content |
+| **Red Arrows/Circles** | Point attention to specific element | Tutorial/feature reveals |
+| **Optical Illusions** | Unexpected visual that demands second look | Creative/innovative content |
+| **Aesthetic Imagery** | Cinematic, symmetrical, beautiful composition | Premium/authority content |
+| **Design Collage** | Multiple elements arranged around subject | Comparison/overview content |
+
 ## Thumbnail Best Practices (The 4 C's)
 
 ### 1. Composition
@@ -93,15 +117,25 @@ Located in `images of me/` - choose based on emotional tone:
 Located in `logos/`:
 - `images.png` - Claude/Anthropic orange starburst logo
 
-## Pose Selection Guide
+## Pose Selection Guide (with Emotion-to-Promise Mapping)
 
-| Video Tone | Recommended Pose | Position |
-|------------|------------------|----------|
-| Exciting/New Feature | `pointing_right_both_hands_shocked.png` | Left side, pointing right |
-| Tutorial/How-To | `pointing_right_smiling.png` | Left side, pointing right |
-| Warning/Contrarian | `portrait_skeptical.png` | Right side |
-| Secret/Insider | `shhh_finger_lips.png` | Center or right |
-| Shocking Reveal | `pointing_right_both_hands_shocked.png` | Left side, pointing right |
+The expression on Mark's face subconsciously signals the video's emotional payoff to viewers.
+
+| Video Tone | Recommended Pose | Position | Emotional Promise | Desire Loop |
+|------------|------------------|----------|-------------------|-------------|
+| Exciting/New Feature | `pointing_right_both_hands_shocked.png` | Left side, pointing right | "Something amazing happened!" | Status (be first to know) |
+| Tutorial/How-To | `pointing_right_smiling.png` | Left side, pointing right | "This is good news, easy to follow" | Time (save effort) |
+| Warning/Contrarian | `portrait_skeptical.png` | Right side | "I'll tell you the truth" | Status (avoid mistakes) |
+| Secret/Insider | `shhh_finger_lips.png` | Center or right | "I have insider knowledge" | Status (exclusive info) |
+| Shocking Reveal | `pointing_right_both_hands_shocked.png` | Left side, pointing right | "Mind-blowing discovery" | Status (be ahead) |
+| Results/Income | `portrait_smiling.png` | Right side | "I achieved something big" | Money (you can too) |
+| Distressed/Cautionary | `portrait_distressed_suit.png` | Right side | "Something went wrong" | Money/Time (avoid loss) |
+
+**Desire Loop Reference** (4 Horsemen):
+- **Money**: Income, savings, passive revenue
+- **Time**: Efficiency, automation, free time
+- **Health**: Reduced stress, work-life balance
+- **Status**: Being ahead, expertise, recognition
 
 ## Nano Banana API - Production Code
 
@@ -151,12 +185,22 @@ for version in versions:
             f.write(img_data.data)
 ```
 
-## Prompt Template (Proven to Work)
+## Prompt Template (Enhanced with Psychology)
+
+Before writing the prompt, answer these questions:
+1. **Desire Loop**: Which of the 4 Horsemen does this video target? (Money/Time/Health/Status)
+2. **Visual Stun Technique**: Which 1-2 techniques will catch the eye? (Color Contrast, Large Face, Big Numbers, etc.)
+3. **Emotional Promise**: What expression on Mark's face matches the video's payoff?
 
 ```
 Create a YouTube thumbnail (16:9 aspect ratio) for "[VIDEO TITLE]":
 
 CRITICAL: NO black borders. Image must go edge-to-edge, filling the entire frame.
+
+PSYCHOLOGY:
+- Desire Loop Target: [Money/Time/Health/Status]
+- Visual Stun Technique: [Color Contrast / Large Face + Emotion / Big Numbers / Red Arrow / etc.]
+- Emotional Promise: [Excitement/Warning/Secret/Success]
 
 COMPOSITION:
 - Place the person on the [LEFT/RIGHT] side, pointing towards the [center-right/center-left]
@@ -182,24 +226,26 @@ MOOD:
 IMPORTANT: Fill the entire 16:9 frame edge-to-edge. No borders, no padding, no frames.
 ```
 
-## 3-Version Strategy
+## 3-Version Strategy (Test IDEAS, Not Just Layouts)
 
-When generating thumbnails, create these 3 variations:
+Don't just test position variations - test distinct CONCEPTS. Each version should test a different idea:
 
-### Version 1: Standard (Person Left, Pointing Right)
-- Person on left side pointing at focal element on right
-- Text in upper-left or upper-center
-- Most common, proven layout
+### Version 1: Safe Concept
+- Proven format, clear value proposition
+- Person pointing at focal element (standard layout)
+- Most common, lowest risk
 
-### Version 2: Reversed (Person Right, Pointing Left)
-- Person on right side pointing at focal element on left
-- Text in upper-right or upper-center
-- Good for A/B testing against V1
+### Version 2: Emotion/Reaction Concept
+- Strong facial expression as the primary hook
+- Different pose (shocked, skeptical, excited)
+- Tests whether emotion beats composition
 
-### Version 3: Alternative Pose/Composition
-- Try a different pose (e.g., shocked face instead of pointing)
-- Or different composition (centered, dramatic zoom)
-- Tests a completely different approach
+### Version 3: Contrast/Leverage Concept
+- Before/after, transformation, or comparison
+- OR leverage recognizable brand/figure
+- Tests a completely different psychological hook
+
+**Why This Matters**: Testing 3 similar layouts gives you layout data. Testing 3 distinct ideas tells you which CONCEPT resonates with your audience.
 
 ## Example: "Claude 5 is INSANE"
 

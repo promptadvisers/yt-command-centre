@@ -61,6 +61,97 @@ Based on your greatest hits, your audience responds best to:
 3.  **Specific Technical "Cheats":** ("Cheat Code", "Elite", "10X Productivity")
 4.  **Comparison/Killer Titles:** ("n8n Just Killed Google Sheets", "Replace Google")
 
+## Power Words by Category
+
+Use these to transform bland titles into click magnets:
+
+### Authority Words
+Make viewers feel they're getting insider knowledge:
+- **Secret**, Elite, Insider, Pro, Expert, Master
+- "The SECRET Claude Prompt Engineers Use"
+
+### Urgency Words
+Create immediate need to click:
+- **Now**, Instantly, Today, Finally, Just, Breaking
+- "Finally! Claude Code Can DO THIS"
+
+### Exclusivity Words
+Trigger FOMO - fear of missing out:
+- **Only**, Hidden, Few Know, Nobody Uses, Rare
+- "The HIDDEN Feature Nobody Uses"
+
+### Scale Words
+Promise massive results:
+- **10X**, Massive, Complete, Ultimate, Every, All
+- "10X Your Productivity with THIS"
+
+### Emotion Words
+Trigger visceral response:
+- **Terrifying**, Insane, Mind-Blowing, Unbelievable, Shocking
+- "This AI Feature is TERRIFYING"
+
+### AI/Automation Niche Power Words
+These perform exceptionally well for Mark's audience:
+- "Cheat code", "Game-changer", "Automate", "No-code", "One-person company"
+- "Replace", "Kill", "Battle-tested", "So you don't have to", "Golden age"
+
+---
+
+## 5 Title Mistakes to Avoid
+
+### 1. Not Opening a Curiosity Loop
+The title must create a question in the viewer's mind.
+- **Bad:** "How to Use Claude Code" (no question formed)
+- **Good:** "Why I STOPPED Using ChatGPT" (viewer asks: what do you use instead?)
+
+### 2. Using Boring Words
+Weak words kill click-through rate.
+- **Bad:** "A Good Way to Automate Tasks"
+- **Good:** "The CHEAT CODE to Automate EVERYTHING"
+
+### 3. Being Too Wordy
+Long titles get cut off and lose impact. Aim for 50-60 characters.
+- **Bad:** "How I Learned to Use Artificial Intelligence Tools to Automate My Business"
+- **Good:** "I Automated My ENTIRE Business (Here's How)"
+
+### 4. Not Front-Loading Important Words
+Viewers skim - put the hook at the beginning.
+- **Bad:** "Here's What Happens When You Try Claude's New Feature"
+- **Good:** "Claude's NEW Feature Changes EVERYTHING"
+
+### 5. Not Testing/Changing Underperforming Titles
+YouTube allows title changes - use this strategically.
+- Check CTR + impressions at the **24-hour mark**
+- If CTR is below 4-5%, consider changing the title
+- Don't be precious - swap titles that aren't working
+
+---
+
+## Title Testing Methodology
+
+### When to Change a Title
+Monitor these metrics in YouTube Studio:
+
+| Metric | Healthy Range | Action if Below |
+|--------|---------------|-----------------|
+| CTR (Click-Through Rate) | 4-8% | Change title/thumbnail |
+| Impressions | Growing | Title may be too niche |
+| Average View Duration | 40%+ of video length | Title may be misleading |
+
+### 24-Hour Rule
+- New videos get an initial push from YouTube
+- If CTR is low after 24 hours, the algorithm will reduce impressions
+- This is your window to test a new title before the video "dies"
+
+### Title A/B Testing Process
+1. Launch video with your best title guess
+2. Monitor CTR and impressions for 24 hours
+3. If CTR < 4%, swap to backup title
+4. Give new title another 24-48 hours
+5. Document what worked for future videos
+
+---
+
 ## Optimization Tips
 *   **Character Count:** Aim for **50-60 characters** for optimal visibility on all devices.
 *   **Front-Loading:** Put the most important words (keywords, emotional triggers) at the **beginning** of the title.
